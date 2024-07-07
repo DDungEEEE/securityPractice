@@ -10,6 +10,6 @@ public class WebAuthorizeConfig {
 
         http.httpBasic();
         http.authorizeRequests().anyRequest().authenticated();
-    
+
     }
 }
