@@ -28,12 +28,16 @@ public class Member implements UserDetails {
     @Column(nullable = false)
     private String password;
 
+    @Column
     private String nickname;
 
+    @Column
     private String address; // 도로명 주소
 
+    @Column
     private String phone;
 
+    @Column
     private String profileImg;
 
     @ElementCollection(fetch = FetchType.EAGER)
